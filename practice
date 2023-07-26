@@ -1,0 +1,9 @@
+재산=[방탄헬멧:70,탄알집:200,K2C1:62]
+input(품목)
+input(개수)
+def CheckNumber():
+  if 개수 >=재산.품목,
+    print(f'{품목} 재산이 충분합니다')
+  else,
+    print(f'{품목} 재산이 부족합니다'}
+CheckNumber()
