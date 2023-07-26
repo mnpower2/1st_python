@@ -1,4 +1,10 @@
-재산=[방탄헬멧:70,탄알집:200,K2C1:62]
+steps:
+- uses: actions/checkout@v3
+- uses: actions/setup-python@v4
+  with:
+    python-version: '3.10' 
+- run: python my_script.py
+CheckList=['방탄헬멧':70,'탄알집':200,'K2C1':62]
 input(품목)
 input(개수)
 def CheckNumber():
